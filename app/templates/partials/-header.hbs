@@ -1,0 +1,15 @@
+<nav>
+	{{link-to "borrowers" "index" class="brand"}}
+
+	<!-- responsiveness-->
+	<input class="show" id="bmenu" type="checkbox">
+	<label class="burger toggle pseudo button" for="bmenu">menu</label>
+	<!-- responsiveness-->
+
+	<div class="menu">
+		{{link-to "dashboard" "index" class="pseudo button icon-gauge"}}
+		{{link-to "friends" "friends" class="pseudo button icon-users-1"}}
+		{{link-to "new friend" "friends.new" class="pseudo button icon-user-add"}}
+	</div>
+</nav>
+
